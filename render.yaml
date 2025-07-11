@@ -5,9 +5,11 @@ services:
     repo: https://github.com/Shahg333/n8n-render
     plan: free
     envVars:
-      - key: N8N_BASIC_AUTH_USER
-        value: admin
-      - key: N8N_BASIC_AUTH_PASSWORD
+      - key: N8N_AUTH_MODE
+        value: email
+      - key: N8N_EMAIL_MODE_USER_EMAIL
+        value: shah.alamgir333@gmail.com
+      - key: N8N_EMAIL_MODE_USER_PASSWORD
         value: Ezza@alam786786
       - key: N8N_HOST
         value: n8n.ezetrends.com
@@ -17,3 +19,4 @@ services:
         value: https
       - key: WEBHOOK_URL
         value: https://n8n.ezetrends.com
+
