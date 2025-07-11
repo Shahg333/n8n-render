@@ -10,10 +10,10 @@ services:
       - key: N8N_BASIC_AUTH_PASSWORD
         value: Ezza@alam786786
       - key: N8N_HOST
-        value: n8n-render.onrender.com
+        value: n8n.ezetrends.com
       - key: N8N_PORT
         value: 5678
       - key: N8N_PROTOCOL
         value: https
       - key: WEBHOOK_URL
-        value: https://n8n-render.onrender.com
+        value: https://n8n.ezetrends.com/
